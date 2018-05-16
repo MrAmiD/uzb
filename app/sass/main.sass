@@ -380,6 +380,174 @@ ul.leftside-m
 		white-space: inherit
 
 
+//basket start
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+	-webkit-appearance: none
+	margin: 0
+
+
+.basket-c
+	min-height: 1000px!important
+	.btn-accent
+		border: none
+		padding: 10px 15px
+		width: 311px
+	.h2
+		font-size: 30px
+	.opt-c
+		display: flex
+		flex-wrap: wrap
+		width: 100%
+		padding: 25px 15px
+		position: relative
+		.opt
+			flex-grow: 1
+			width: 50%
+			max-width: 50%
+			display: flex
+			align-items: center
+			font-weight: 500
+			justify-content: space-between
+			padding: 0 15px
+			margin-bottom: 15px
+			.txt
+				flex-grow: 1
+				text-align: left
+				min-width: 50%
+				white-space: nowrap
+				&:first-child
+					font-weight: 700
+	*
+		outline: none!important
+	.table-c
+		input
+			color: $accent!important
+			font-weight: 700
+			padding-left: 15px
+			width: 115px
+		.quantity
+			position: relative
+			.quantity-nav
+				position: absolute
+				top: 0px
+				right: 5px
+				.quantity-down
+					position: relative
+					bottom: 0px
+				.svg-c
+					cursor: pointer
+		table
+			thead
+				tr
+					td
+						background-color: $dark
+						color: #FFFFFF
+						font-weight: 300
+						padding: 10px 25px
+						text-align: center
+						border: solid 1px #FFFFFF
+			tr
+				position: relative
+				td
+					border: double 3px $dark
+					text-align: center
+					padding-left: 15px
+					padding-right: 15px
+					background: #FFFFFF
+					font-size: 14px
+					user-select: none
+			tbody
+				tr
+					td
+						&:nth-child(4)
+							color: $accent
+		.delete-row
+			background: transparent
+			border: none
+			position: absolute
+			right: -10px
+			top: 5px
+			cursor: pointer
+			outline: none!important
+			&:hover
+				svg
+					path
+						fill: $accent
+
+input
+	width: 100%
+	max-width: 365px
+	border: solid 1px $dark
+	color: $dark
+	font-size: 14px
+	height: 40px
+	padding-left: 10px
+
+input[type="number"]
+	height: 33px
+.deliveryInfo-sec
+	margin-top: 60px
+	.h2
+		margin-bottom: 30px
+	.jq-checkbox, .jq-radio
+		background: #FFFFFF
+		border-color: $dark
+		border-radius: 0px
+	.jq-checkbox, .jq-radio
+		width: 35px
+		height: 35px
+	.jq-checkbox.checked .jq-checkbox__div
+		width: 100%
+		height: 100%
+		margin: 0px
+		border: none
+		background-image: url("../img/arrowSelectBig.png")
+		background-repeat: no-repeat
+		background-position: center
+		transform: none
+	.input-c
+		display: flex
+		flex-wrap: wrap
+		width: 365px
+		.input-i
+			flex-grow: 1
+			display: flex
+			align-items: center
+			min-width: 50%
+			margin-bottom: 10px
+			input[type="text"]
+				max-width: 365px
+		.label-i
+			line-height: 1
+			margin-left: 10px
+	.count-d
+		margin-top: 50px
+		background: $dark
+		color: #FFFFFF
+		padding: 22px
+		background-size: cover
+		background-image: url("../img/uzorBlack.png")
+		font-size: 14px
+		font-weight: 700
+		line-height: 1.7
+	.accent-txt
+		margin-top: 15px
+	.contact-rr
+		margin-top: 30px
+	.cont-form-c
+		display: flex
+		justify-content: space-between
+		margin-bottom: 10px
+		input
+			flex-grow: 1
+			max-width: 328px!important
+
+.accent-txt
+	color: $accent
+//basket end
+
 /*Project end*/
 
 

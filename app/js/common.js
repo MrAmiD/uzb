@@ -116,6 +116,9 @@ $(function() {
     $('select').styler({
         selectSearch: true,
     });
+    $('input[type="checkbox"]').styler({
+        selectSearch: true,
+    });
     //setInvest end
 
 
